@@ -1,0 +1,28 @@
+<!doctype html>
+<html lang="en" ng-app="weather">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <link rel="stylesheet" href="./Skeleton-2.0.4/css/normalize.css">
+    <link rel="stylesheet" href="./Skeleton-2.0.4/css/skeleton.css">
+    <script src="bower_components/angular/angular.js"></script>
+    <script src="main.js"></script>
+</head>
+<body>
+<div class="container">
+    <div ng-controller="WeatherController">
+        City: <input type="text" ng-model="city" placeholder="Enter city name">
+        Country: <input type="text" ng-model="country" placeholder="Enter country name here">
+        <button ng-click="getWeather()">Get Weather</button>
+        <br>
+        <br>
+        <br>
+
+        <b>Weather Degrees Fahrenheit: </b><span>{{weatherDescription}}</span>
+    </div>
+</div>
+</body>
+</html>

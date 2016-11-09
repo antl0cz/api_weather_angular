@@ -1,0 +1,20 @@
+{
+  "name": "angular_api_call",
+  "homepage": "https://github.com/antl0cz/angular_controller_directives",
+  "authors": [
+    "Ant Nguyen <phuanthony.nguyen@gmail.com>"
+  ],
+  "description": "",
+  "main": "",
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "angular": "^1.5.8"
+  }
+}
